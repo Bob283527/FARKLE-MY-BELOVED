@@ -8,7 +8,7 @@ public class Farkle {
     private int totalScore;
 
     public Farkle() {
-        totScore = 0;
+        totalScore = 0;
     }
 
     public void playGame() {
@@ -23,7 +23,6 @@ public class Farkle {
         //depends on which letter u chose
         if (choice.equals("y")) {
             numDice = 5;
-            System.out.println("Rolling 5 dice...");
         } else {
             System.out.println("How many dice do you want to roll? ");
             numDice = scanner.nextInt();
@@ -41,7 +40,7 @@ public class Farkle {
 			Dice die = new Dice();
             int diceValue = die.roll();
             sum += diceValue;
-            System.out.print(diceValue);
+            System.out.print(diceValue + " ");
         }
         
         System.out.println();

@@ -21,6 +21,7 @@ public class Farkle {
         
         int numDice;
         //depends on which letter u chose
+        //and Jason I did NOT use AI I used w3schools
         if (choice.equals("y")) {
             numDice = 5;
         } else {
@@ -29,6 +30,7 @@ public class Farkle {
         }
         //thought it would look betetr ngl
         System.out.println("Rolling " + numDice + " dice...");
+        //yes I added these comments, JASON, and the ..., for DRAMATIC eefect
 
         
         int sum = 0;
